@@ -12,6 +12,7 @@ Given provided repository (Can copy into own directory or fork):
 8. Set up an ApplicationInsights instance that the app could use. Connection string of the AI instance is expected to be in the appsettings.json.
 
 Needless to say that the api has the integrations for the AKV and AI already added with just the configurations needed to be added to appsettings.json file.
+Health endpoint is available at the /healthz route.
 
 Good to have:
 Deployment process done all that via an IAAC approach. (Arm templates / Terraform etc.)
